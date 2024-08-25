@@ -80,9 +80,7 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
-.weather{
-    display: none;
-}
+
 .error{
     text-align: left;
     margin-left: 10px;
@@ -97,10 +95,41 @@ body{
         width:100%;
         border-radius: 0;
     }
+    .search input{
+        width:50px;
+    }
     .search button{
-        width:40px;
-        height:40px;
-        border-radius: 15px;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        margin: 10px;
+    }
+    .col img{
+       height:50px;
+       width:50px;
+    }
+    .col{
+        margin: 20px 0;
+    }
+}
+@media (max-width:360px){
+    .card{
+        margin: 0;
+        width:100%;
+        border-radius: 0;
+    }
+    .search input{
+        width:50px;
+    }
+    .search button{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
     }
     .details{
         display: flex;
